@@ -1,0 +1,271 @@
+/*background: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
+body {
+    /*background: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
+    background-color: black;
+    background-color: rgb(31, 30, 30);
+}
+
+.lead {
+    color: white;
+}
+
+.top-left-name {
+    color: #3498db;;
+}
+
+.hi-im-jai {
+    color: white !important;
+}
+.jai-header {
+    color: #3498db;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.jai-image {
+    border-radius: 50%;
+}
+
+.about {
+    color: white;
+}
+
+.me {
+    color: #3498db;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.about-header {
+    color: white !important;
+}
+
+.skills {
+    color: white;
+}
+
+.skills-text {
+    color: #3498db;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.projects {
+    color: white;
+    background-color: rgb(31, 30, 30) !important;
+}
+
+.work-ex {
+    color: white;
+}
+
+.exp-text {
+    color: #3498db;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.connect-text {
+    color: #3498db;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.company  {
+    color: white !important;
+}
+
+.contact {
+    color: white;
+}
+
+
+
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto;
+
+    
+}
+
+.grid-item {
+    border-color:blue;
+    border: 2px solid #3498db;
+}
+
+
+.card {
+    max-width: 300px;
+}
+
+span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.contact-box {
+    border-color:blue;
+    border: 3px solid #3498db;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.skills-2 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inner {
+    padding-top: 20px;
+}
+
+.header-skills-2 {
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+
+.header-skills-2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4p;
+    width: 100px;
+    background-color: #2ecc71;
+    border-radius: 2px;
+}
+
+.container-skills-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1ren 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box {
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.skill-box:hover .img {
+    transform: translateY(-10px);
+}
+
+.skill-box:hover > .skill-title:after, .skill-box:hover > .skill-title:before {
+    width: 35px;
+}
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.skill-title:after {
+    content: '';
+    position:absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color:#3498db;
+    transition: 0.5s;
+}
+
+.skill-title:before {
+    content: '';
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: #3498db;
+    transition: 0.5s;
+}
+
+
+.skill-icon {
+    width: 50px;
+    z-index: 2;
+}
+
+.img {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px
+}
+
+
+
+.skill-title h3 {
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.skills-headi {
+    color: #3498db;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .container-skills-2 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container-skills-2 {
+        grid-template-columns: 1fr;
+        padding: 2rem 50px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hero {
+        text-align: center;
+        }
+    
+        .jai-image-div {
+            justify-content: center;
+        }
+}
