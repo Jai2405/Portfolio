@@ -73,7 +73,7 @@ export default function LibraryPage() {
 						{quotes.map((item) => (
 							<motion.li key={item.id} className="card-modern p-8">
 								{item.quoteExcerpt && (
-									<blockquote className="text-xl text-muted italic leading-relaxed mb-4 font-medium">"{item.quoteExcerpt}"</blockquote>
+									<blockquote className="text-xl text-muted italic leading-relaxed mb-4 font-medium">&ldquo;{item.quoteExcerpt}&rdquo;</blockquote>
 								)}
 								{item.title && <p className="text-lg text-muted-light font-medium">— {item.title}</p>}
 							</motion.li>

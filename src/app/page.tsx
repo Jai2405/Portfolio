@@ -13,11 +13,11 @@ export default function Home() {
 			</div>
 
 			<div className="pt-8 space-y-6">
-				<h2 className="text-2xl font-bold tracking-tight text-foreground border-b-2 border-foreground pb-2">Questions I'm still exploring</h2>
+				<h2 className="text-2xl font-bold tracking-tight text-foreground border-b-2 border-foreground pb-2">Questions I&apos;m still exploring</h2>
 				<ul className="space-y-4 text-muted text-xl leading-relaxed">
-					<li className="font-medium">• Shouldn't those with knowledge and wisdom decide who governs?</li>
+					<li className="font-medium">• Shouldn&apos;t those with knowledge and wisdom decide who governs?</li>
 					<li className="font-medium">• What do we lose when we make everything efficient?</li>
-					<li className="font-medium">• In today's age, should we be generalists or specialists?</li>
+					<li className="font-medium">• In today&apos;s age, should we be generalists or specialists?</li>
 				</ul>
 			</div>
 		</FadeIn>

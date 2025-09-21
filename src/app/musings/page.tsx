@@ -49,7 +49,7 @@ export default function MusingsPage() {
 					<motion.div className="card-modern p-12 w-full text-center" variants={item}>
 						<h2 className="text-2xl font-bold text-foreground mb-4">Coming Soon</h2>
 						<p className="text-lg text-muted leading-relaxed">
-							I'm working on some thoughtful essays and musings. Check back soon for new content!
+							I&apos;m working on some thoughtful essays and musings. Check back soon for new content!
 						</p>
 					</motion.div>
 				)}
